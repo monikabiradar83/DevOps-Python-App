@@ -8,7 +8,7 @@ def home():
 
 @app.route('/about')
 def about():
-    return "This application is deployed using Docker and Jenkins."
+    return "CI/CD Pipeline Working Successfully!"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
